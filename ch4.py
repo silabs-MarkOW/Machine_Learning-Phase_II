@@ -45,3 +45,4 @@ model_1.add(layers.Dense(16,activation='relu',input_shape=(1,)))
 model_1.add(layers.Dense(1))
 model_1.compile(optimzer='rmsprop', loss='mse', metrics=['mae'])
 model_1.summary()
+
